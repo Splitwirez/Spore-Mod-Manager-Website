@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="shalecss/shale.css">
+  <script src="shalecss/shalecss.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+
+      <div class="burger-button closed" role="button" aria-label="menu" title="menu" onclick="toggleHamburgler(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <p class="title-text">Spore Mod Manager</p>
+
+      <span class="caption-menu a11y-menu">
+        <a class="caption-button js-textsize" onclick="toggleTextSize(this)" role="button">
+          <span class="icon icon-a-uppercase"></span>
+          <span class="vox-only">Toggle text size</span> 
+        </a>
+
+        <span class="invisible">&nbsp;</span>
+
+        <a class="caption-button js-contrast" onclick="toggleContrast(this)" role="button">
+          <span class="icon icon-contrast"></span>
+          <span class="vox-only">Toggle contrast</span> 
+        </a>
+
+        <span class="invisible">&nbsp;</span>
+
+        <a class="caption-button js-darkmode" onclick="toggleDark(this)" role="button">
+          <span class="icon icon-moon-stroke"></span>
+          <span class="vox-only">Toggle dark mode</span> 
+        </a>
+      </span>
+    </div>
+
+    <nav class="menu-bar">
+      <a class="button menu-bar-button current">Home</a>
+      <a class="button menu-bar-button">Help / FAQ</a>
+      <a class="button menu-bar-button">For Mod Developers</a>
+    </nav>
+  </header>
+
+  <main class="one-box index fade-in">
+
+    <section>
+      <div class="card flex-box">
+        <div>
+          <h2>Spore Mod Manager</h2>
+          <p>Play Spore with mods. That's all.</p>
+          <p>Other text TBD</p>
+          <a class="button">
+            Download
+          </a>
+          <br />
+          <a>View all downloads</a>
+        </div>
+        <div>
+          <img src="https://i.imgur.com/cMDUVO7.png" alt="Node Graph" width="100%">
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+    <section>
+      <h2 class="bigger-text">What's so great about it?</h2>
+      <div class="flex-box">
+        <div class="card">
+          <h3>Dead-simple</h3>
+          <p>TBD</p>
+        </div>
+        <div class="card">
+          <h3>Efficient</h3>
+          <p>TBD</p>
+        </div>
+      </div>
+      <br>
+      <div class="flex-box">
+        <div class="card">
+          <h3>Transparent</h3>
+          <p>TBD</p>
+        </div>
+        <div class="card">
+          <h3>Future-proof</h3>
+          <p>TBD</p>
+        </div>
+      </div>
+      <br>
+      <div class="flex-box">
+        <div class="card">
+          <h3>Puts you in charge</h3>
+          <p>TBD</p>
+        </div>
+        <div class="card">
+          <h3>Open-source</h3>
+          <p>TBD</p>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section>
+      <div class="card">
+        <h2>Need Help?</h2>
+        <div class="flex-box">
+          <a class="button">Ask a question</a>
+          <a class="button">Report a bug</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-text">
+      add a footer here later
+    </div>
+  </footer>
+</body>
+
+</html>

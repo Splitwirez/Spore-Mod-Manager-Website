@@ -1,0 +1,9 @@
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.flex-box > * {
+  flex-basis: 100%;
+}
